@@ -4,11 +4,6 @@
   "manifest_version": 2,
   "description": "Chrome Extension For Converting complete web experience into dark theme",
   "homepage_url": "https://www.walmart.com",
-  "background": {
-    "scripts": [
-    ],
-    "persistent": true
-  },
   "content_scripts": [
     {
     "matches": ["<all_urls>"],
